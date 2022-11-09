@@ -1,0 +1,8 @@
+.mar{
+
+    padding-left: 72%;
+}
+
+li{
+    padding-right: 5px;
+}

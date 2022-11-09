@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="href" href="contact.component.css">
+
+    
+    <title>Document</title>
+</head>
+<body id="back">
+  
+    
+    <div class="containe">
+
+        <h2>Contact Us </h2>
+        <form  name="myform" onsubmit ="return validateform()" method="post" >
+            <div>
+
+                <input type="text" class="input" placeholder="your name" name="name" >
+            <div id="y" >
+                <div class="error" id ="errorname"></div>
+            </div>
+
+            </div>
+           
+            <div>
+
+                <input type="email" class="input"  placeholder=" email"  name="email">
+                <span class="error" id ="errormail">
+                </span>
+
+                
+            </div>
+            <div>
+
+         
+
+                    <textarea placeholder="Message"  name="message"class="input" rows="9"></textarea>
+                    <span class="error" id ="errormessage"></span>
+                
+                
+            </div>
+
+            <input id="btn" type="submit" value="send">
+
+
+        </form>
+    </div>
+
+
+    <script type="text/javascript" src="../js/script.js">
+        
+    </script>
+</body>
+</html>
